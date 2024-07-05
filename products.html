@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jollibee Products</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="https://1000logos.net/wp-content/uploads/2021/05/Jollibee-logo.png" alt="Jollibee Logo">
+                <span>Jollibee Philippines</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>    
+                    <li><a href="products.html">Products</a></li>       
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container product-list">
+    <div class="item">
+        <a href="https://www.jollibeefoods.com/collections/meal-deals">
+            <img src="https://www.jollibeefoods.com/cdn/shop/collections/JB-US-CAN-OLO-ProdImage-CSMealDeal-SandwichAndPie.jpg?v=1718924690&width=240" alt="Meal Deals">
+        </a>
+        <h3>Meal Deals</h3>
+    </div>
+
+    <div class="item">
+        <a href="https://www.jollibeefoods.com/collections/family-bucket-meals">
+            <img src="https://www.jollibeefoods.com/cdn/shop/collections/family-bucket-treats.png?v=1698874148&width=240" alt="Family Bucket Meals">
+        </a>
+        <h3>Family Bucket Meals</h3>
+    </div>
+
+    <div class="item">
+        <a href="https://www.jollibeefoods.com/collections/fried-chicken">
+            <img src="https://www.jollibeefoods.com/cdn/shop/collections/fried-chicken.png?v=1698874303&width=240" alt="Fried Chicken">
+        </a>
+        <h3>Fried Chicken</h3>
+    </div>
+
+    <div class="item">
+        <a href="https://www.jollibeefoods.com/collections/spaghetti-and-palabok-fiesta">
+            <img src="https://www.jollibeefoods.com/cdn/shop/collections/jolly-spaghetti.png?v=1698874335&width=240" alt="Jolly Spaghetti and Palabok Fiesta">
+        </a>
+        <h3>Jolly Spaghetti and Palabok Fiesta</h3>
+    </div>
+
+    <div class="item">
+        <a href="https://www.jollibeefoods.com/collections/chicken-sandwiches">
+            <img src="https://www.jollibeefoods.com/cdn/shop/collections/chicken-sandwich.png?v=1698874228&width=240" alt="Chicken Sandwiches">
+        </a>
+        <h3>Chicken Sandwiches</h3>
+    </div>
+
+    <div class="item">
+        <a href="https://www.jollibeefoods.com/collections/burgers">
+            <img src="https://www.jollibeefoods.com/cdn/shop/collections/yumburger.png?v=1698874342&width=240" alt="Burgers">
+        </a>
+        <h3>Burgers</h3>
+    </div>
+
+    <div class="item">
+        <a href="https://www.jollibeefoods.com/collections/burger-steaks">
+            <img src="https://www.jollibeefoods.com/cdn/shop/collections/burgersteak.png?v=1698874254&width=240" alt="Burger Steaks">
+        </a>
+        <h3>Burger Steaks</h3>
+    </div>
+</div>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Jollibee. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript for image zoom effect on hover
+        const items = document.querySelectorAll('.item');
+
+        items.forEach(item => {
+          item.addEventListener('mouseenter', function() {
+            this.querySelector('img').style.transform = 'scale(1.1)';
+          });
+
+          item.addEventListener('mouseleave', function() {
+            this.querySelector('img').style.transform = 'scale(1)';
+          });
+        });
+    </script>
+</body>
+</html>
